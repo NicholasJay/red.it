@@ -1,11 +1,11 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/coryhaber/dev/red.it/app/helpers/application_helper.rb": [
+      "/Users/nicholasbundy/dev/reddit/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/coryhaber/dev/red.it/app/controllers/welcome_controller.rb": [
+      "/Users/nicholasbundy/dev/reddit/app/controllers/welcome_controller.rb": [
         1,
         null,
         1,
@@ -14,18 +14,50 @@
         null,
         null
       ],
-      "/Users/coryhaber/dev/red.it/app/controllers/application_controller.rb": [
+      "/Users/nicholasbundy/dev/reddit/app/controllers/application_controller.rb": [
         1,
         null,
         null,
         1,
         null
       ],
-      "/Users/coryhaber/dev/red.it/app/controllers/users_controller.rb": [
+      "/Users/nicholasbundy/dev/reddit/app/controllers/users_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/nicholasbundy/dev/reddit/app/models/user.rb": [
+        1,
+        1,
+        1,
+        1,
         1,
         null
       ]
     },
-    "timestamp": 1393608696
+    "timestamp": 1393619255
   }
 }
