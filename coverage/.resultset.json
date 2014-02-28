@@ -1,37 +1,19 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/nicholasbundy/dev/reddit/app/helpers/application_helper.rb": [
+      "/Users/coryhaber/dev/red.it/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/nicholasbundy/dev/reddit/app/controllers/welcome_controller.rb": [
+      "/Users/coryhaber/dev/red.it/app/models/user.rb": [
         1,
-        null,
         1,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/nicholasbundy/dev/reddit/app/controllers/application_controller.rb": [
         1,
-        null,
-        null,
         1,
-        null,
-        1,
-        0,
-        null,
-        null,
-        1,
-        0,
-        null,
-        null,
         1,
         null
       ],
-      "/Users/nicholasbundy/dev/reddit/app/controllers/session_controller.rb": [
+      "/Users/coryhaber/dev/red.it/app/controllers/session_controller.rb": [
         1,
         null,
         1,
@@ -66,16 +48,26 @@
         null,
         null
       ],
-      "/Users/nicholasbundy/dev/reddit/app/models/user.rb": [
+      "/Users/coryhaber/dev/red.it/app/controllers/application_controller.rb": [
         1,
+        null,
+        null,
         1,
+        null,
         1,
+        0,
+        null,
+        null,
         1,
+        0,
+        null,
+        null,
         1,
         null
       ],
-      "/Users/nicholasbundy/dev/reddit/app/controllers/users_controller.rb": [
+      "/Users/coryhaber/dev/red.it/app/controllers/users_controller.rb": [
         1,
+        null,
         null,
         1,
         null,
@@ -101,12 +93,6 @@
         null,
         1,
         1,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
         0,
         null,
         null,
@@ -115,10 +101,47 @@
         0,
         0,
         null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/coryhaber/dev/red.it/app/controllers/stories_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/coryhaber/dev/red.it/app/models/story.rb": [
+        1,
+        1,
+        1,
+        1,
         null,
         null
       ]
     },
-    "timestamp": 1393621270
+    "timestamp": 1393624331
   }
 }
