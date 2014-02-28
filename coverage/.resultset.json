@@ -5,23 +5,27 @@
         1,
         null
       ],
-      "/Users/coryhaber/dev/red.it/app/models/story.rb": [
+      "/Users/coryhaber/dev/red.it/app/controllers/welcome_controller.rb": [
         1,
+        null,
         1,
-        1,
-        1,
+        null,
+        null,
         null,
         null
       ],
-      "/Users/coryhaber/dev/red.it/app/models/user.rb": [
+      "/Users/coryhaber/dev/red.it/app/controllers/application_controller.rb": [
         1,
+        null,
+        null,
         1,
-        1,
-        1,
+        null
+      ],
+      "/Users/coryhaber/dev/red.it/app/controllers/users_controller.rb": [
         1,
         null
       ]
     },
-    "timestamp": 1393606235
+    "timestamp": 1393608696
   }
 }
