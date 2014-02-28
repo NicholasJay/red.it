@@ -1,3 +1,4 @@
+require 'pry'
 class StoriesController < ApplicationController
 
   def new
@@ -7,14 +8,13 @@ class StoriesController < ApplicationController
 
   def create
     @user = User.find(params[:user_id])
-    @story = @user.stories.new(url: params[:url])
+    @story = @user.stories.new(url: params[:story][:url])
     if @story.save
-      redirect_to ("/users/#{params[:user_id]}/stories")
+
+      redirect_to ("/users/#{params[:user_id]}")
     else
       render(:new)
     end
-
-    # @story.user = @user
   end
 
 
