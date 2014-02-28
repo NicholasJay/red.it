@@ -15,7 +15,7 @@ it "will signup a user" do
     fill_in "user_password_confirmation", with: "1234"
     click_button "Signup"
     # Expectations
-      expect(page).to have_content user.username
+    expect(page).to have_content user.username
 
   end
 
