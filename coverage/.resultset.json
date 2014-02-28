@@ -1,11 +1,11 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/nicholasbundy/dev/reddit/app/helpers/application_helper.rb": [
+      "/Users/coryhaber/dev/red.it/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/nicholasbundy/dev/reddit/app/models/story.rb": [
+      "/Users/coryhaber/dev/red.it/app/models/story.rb": [
         1,
         1,
         1,
@@ -13,7 +13,7 @@
         null,
         null
       ],
-      "/Users/nicholasbundy/dev/reddit/app/models/user.rb": [
+      "/Users/coryhaber/dev/red.it/app/models/user.rb": [
         1,
         1,
         1,
@@ -22,6 +22,6 @@
         null
       ]
     },
-    "timestamp": 1393605507
+    "timestamp": 1393606235
   }
 }
