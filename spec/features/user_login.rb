@@ -4,7 +4,7 @@ describe "user can signup" do
   let(:user) { FactoryGirl.create(:user) }
 
 
-  it "will login a existing user" do
+  it "will login a existing user and authorize" do
     # Setup
     visit root_path
 
@@ -15,7 +15,8 @@ describe "user can signup" do
     click_button "Log in!"
     # Expectations
     expect(page).to have_content user.username
-
+    expect @current_user == user
   end
+
 
 end

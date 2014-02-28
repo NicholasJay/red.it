@@ -1,5 +1,7 @@
 class UsersController < ApplicationController
 
+  before_action :authenticate, :authorize, only: [:edit, :update]
+
   def new
     @user = User.new
   end
@@ -8,6 +10,7 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
 
     if @user.save
+      session[:user_id] = @user.id
       redirect_to user_path(@user)
     else
       render(:new)
@@ -24,3 +27,16 @@ private
     params.require(:user).permit(:username, :email, :password, :password_confirmation)
   end
 end
+
+def authorize
+  unless current_user == @user
+    redirect_to login_path
+  end
+end
+
+def authenticate
+  unless logged_in?
+    redirect_to login_path
+  end
+end
+
